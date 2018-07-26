@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+
+  public method1(): string {
+    return 'Hello ';
+  }
 }
